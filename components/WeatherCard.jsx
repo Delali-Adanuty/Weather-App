@@ -1,6 +1,6 @@
 export default function WeatherCard(props){
     return(
-        <section>
+        <section className="weather">
             <p className="last-updated">Last updated at {props.lastUpdated}</p>
             <p className="location">{props.city}</p>
             <div className="temp">
